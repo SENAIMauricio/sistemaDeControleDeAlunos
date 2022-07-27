@@ -5,7 +5,7 @@ for (aluno = 0; aluno <= 13; aluno++) {
         console.log("zero: " + aluno)
     } if (aluno % 2 == 0) {
         console.log("par: " + aluno)
-    } else if (aluno % 2 != 0) {
+    } else {
         console.log("ímpar: " + aluno)
     }
 };
